@@ -1,0 +1,62 @@
+.header {
+    text-align: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: antiquewhite;
+    
+}
+
+.enlace {
+    background-color: blue;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+/* display flex */
+.container {
+    display: flex;
+    background-color: blueviolet;
+    position: relative;
+}
+
+.box {
+    background-color: lightblue;
+    margin: 10px;
+}
+
+
+/* display: inline-flex */
+.caja {
+    /* display: inline-flex; */
+    background-color: blue;
+    width: 500px;
+}
+
+.caja1 {
+    background-color: blueviolet;
+    width: 850px;
+}
+.cajita {
+    
+    background-color: lightblue;
+    margin: 10px;
+}
+
+/* display grid */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.conte {
+    background-color: lightblue;
+}
+
+.desarrollo {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
